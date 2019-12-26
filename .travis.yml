@@ -18,7 +18,6 @@ script:
 
   
   
-  
 deploy:
   provider: pages
   token: $GITHUB_TOKEN
