@@ -11,6 +11,8 @@
 # Contributors
 ***
 翻譯(東城七夜)
+<br /><br />
+
 
 <br /><br /><br />
 **The source for this documentation can be found on [GitHub](https://github.com/stardussttx/maou-gakuin-no-futekigousha).**
