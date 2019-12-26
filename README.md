@@ -1,0 +1,1 @@
+# maou-gakuin-no-futekigousha
