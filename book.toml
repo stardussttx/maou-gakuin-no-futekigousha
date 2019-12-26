@@ -1,0 +1,14 @@
+[book]
+title = "魔王學院的不適任者"
+authors = "秋"
+language = "zh-Hant"
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+google-analytics = ""
+no-section-label = true
+git-repository-url = "https://github.com/stardussttx/maou-gakuin-no-futekigousha"
+git-repository-icon = "fa-github"

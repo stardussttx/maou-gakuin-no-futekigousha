@@ -1,0 +1,33 @@
+os: linux
+language: rust
+
+
+cache:
+  - cargo
+
+rust:
+  - stable
+
+before_script:
+  - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
+  - (test -x $HOME/.cargo/bin/mdbook || cargo install --git https://github.com/rust-lang/mdBook.git mdbook)
+  - cargo install-update -a
+
+script:
+  - mdbook build 
+
+  
+  
+  
+deploy:
+  provider: pages
+  token: $GITHUB_TOKEN
+  
+  skip_cleanup: true
+  
+  
+  local_dir: book
+  keep_history: false
+  on:
+    branch: master
+    
