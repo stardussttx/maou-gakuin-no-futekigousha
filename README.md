@@ -2,7 +2,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/stardussttx/shikkaku-mon-no-saikyou-kenja.svg?branch=master)](https://travis-ci.org/stardussttx/shikkaku-mon-no-saikyou-kenja)
+[![Build Status](https://travis-ci.com/stardussttx/maou-gakuin-no-futekigousha.svg?branch=master)](https://travis-ci.com/stardussttx/maou-gakuin-no-futekigousha)
 <br /><br />
 The rendered documentation is hosted at [https://stardussttx.github.io/maou-gakuin-no-futekigousha](https://stardussttx.github.io/maou-gakuin-no-futekigousha)
 <br /><br />
