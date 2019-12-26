@@ -8,7 +8,7 @@ src = "src"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "ayu"
-google-analytics = ""
+google-analytics = "UA-154804426-3"
 no-section-label = true
 git-repository-url = "https://github.com/stardussttx/maou-gakuin-no-futekigousha"
 git-repository-icon = "fa-github"
