@@ -1,6 +1,6 @@
 [book]
 title = "魔王學院的不適任者"
-authors = "秋"
+authors = ["秋"]
 language = "zh-Hant"
 multilingual = false
 src = "src"
