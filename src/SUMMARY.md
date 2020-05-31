@@ -1,5 +1,7 @@
 # Summary
 
+- [整合目錄](./content_all.md)
+
 - [魔王學院的不適任者](./README.md)
 
 - [目錄](./content.md)
