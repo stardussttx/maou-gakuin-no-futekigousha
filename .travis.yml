@@ -1,6 +1,7 @@
-os: linux
-language: rust
 
+language: rust
+os: linux
+dist: xenial
 
 cache:
   - cargo
@@ -10,23 +11,22 @@ rust:
 
 before_script:
   - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
-  - (test -x $HOME/.cargo/bin/mdbook || cargo install --git https://github.com/rust-lang/mdBook.git mdbook)
+  - (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.3" mdbook)
   - cargo install-update -a
 
 script:
-  - mdbook build 
-
+  - mdbook build  &&  mdbook test 
   
+ 
   
 deploy:
   provider: pages
-  token: $GITHUB_TOKEN
-  
-  skip_cleanup: true
-  
-  
-  local_dir: book
-  keep_history: false
+  strategy: git
+  edge: true
+  cleanup: false
+  github-token: $GITHUB_TOKEN
+  local-dir: ./book
+  keep-history: false
   on:
     branch: master
-    
+  target_branch: gh-pages
